@@ -375,6 +375,28 @@ main .downloadables .button_icon{
     background: rgba(0, 0, 0, 0.08);
 }
 
+main .experiences .experience-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .experiences .title{
+    position: relative;
+    display: flex;
+    gap: 0.5rem;
+}
+
+main .experiences h2{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+main .experiences .title h3{
+    color:var(--color-project-sub);
+    margin-top: 0.9rem;
+}
+
 main .projects {
     margin-top: 2rem;
 }
